@@ -1,3 +1,5 @@
+목표: ROMA로 simple_spread 풀기
+
 # Off-Policy Multi-Agent Reinforcement Learning (MARL) Algorithms
 
 This repository contains implementations of various off-policy multi-agent reinforcement learning (MARL) algorithms.
