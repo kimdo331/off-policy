@@ -1,5 +1,23 @@
 목표: ROMA로 simple_spread 풀기
 
+[v] QMIX와 MQMIX의 차이점
+  - MQMIX는 RNN 없이 MLP로만 구현한 버전. qmix와 mqmix 둘 다 각각 완전체라 실행 가능
+  - 여기서는 QMIX를 메인으로 잡자.
+
+[v] MQMIX와 MVDN의 차이점
+  - (예상했다시피) mixer만 다름
+
+[v] QMIX 코드 분석
+  - qmix.py
+    - 메인이 되는 클래스. 
+  - algorithm/agent_q_function.py
+    - 하나의 agent의 network
+  - algorithm/q_mixer.py
+    - 말그대로 믹서. agent별 q값 먹어서 q_tot 리턴
+  - algorithm/QMixPolicy.py
+    - base_runner.py에서 사용. (base_runner.py의 RecRunner는 MPERunner로 상속)
+    - 
+
 # Off-Policy Multi-Agent Reinforcement Learning (MARL) Algorithms
 
 This repository contains implementations of various off-policy multi-agent reinforcement learning (MARL) algorithms.
