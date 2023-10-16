@@ -1,4 +1,4 @@
-목표: ROMA로 simple_spread 풀기
+목표: ROMA로 simple_spread 풀기 (해당 repo 보류)
 
 [v] QMIX와 MQMIX의 차이점
   - MQMIX는 RNN 없이 MLP로만 구현한 버전. qmix와 mqmix 둘 다 각각 완전체라 실행 가능
